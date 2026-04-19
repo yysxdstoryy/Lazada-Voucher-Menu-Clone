@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column ;
+    padding: 14px;
+}
+
+.above-text {
+    display: flex;
+    justify-content: space-between;
+    
+    button {
+        font-family: "Montserrat", sans-serif;
+        background-color: white;
+        border: none;
+        margin:12px;
+    }
+    
+    h3 {
+        font-weight: 900;
+        color: #212121;
+        margin: 0;
+        font-size: 20px;
+    }
+}
+
+.voucher-box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+
+.voucher {
+    background-color: #FFF2F2;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 4px 20px;
+    
+    img {
+        height: 24px;
+        width: 90px;
+        margin: 10px 20px;
+    }
+    
+    h4 {
+        margin: 4px ;
+        font-weight: 900;
+    }
+    
+    p {
+        margin: 4px ;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+#first-voucher { color: #9630C8; }
+
+#second-voucher { color: #33BABA; }
